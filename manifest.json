@@ -1,1 +1,31 @@
-{"background_color":"#0f172a","description":"Manage Revenue Graphs, simulate economic events, and track entitlements on the RevRule rail.","display":"standalone","icons":[{"purpose":"any maskable","sizes":"192x192","src":"/icon-192.png","type":"image/png"},{"purpose":"any maskable","sizes":"512x512","src":"/icon-512.png","type":"image/png"},{"purpose":"any","sizes":"any","src":"/icon.svg","type":"image/svg+xml"}],"name":"RevRule Console","orientation":"any","scope":"/","short_name":"RevRule","start_url":"/","theme_color":"#1d4ed8"}
+{
+  "background_color": "#0f172a",
+  "description": "Manage Revenue Graphs, simulate economic events, and track entitlements on the RevRule rail.",
+  "display": "standalone",
+  "icons": [
+    {
+      "purpose": "any maskable",
+      "sizes": "192x192",
+      "src": "/revrule-console/icon-192.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any maskable",
+      "sizes": "512x512",
+      "src": "/revrule-console/icon-512.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "any",
+      "src": "/revrule-console/icon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "name": "RevRule Console",
+  "orientation": "any",
+  "scope": "/revrule-console/",
+  "short_name": "RevRule",
+  "start_url": "/revrule-console/",
+  "theme_color": "#1d4ed8"
+}

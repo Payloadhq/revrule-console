@@ -8,10 +8,13 @@
 const CACHE_VERSION = "revrule-console-v1";
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const ASSET_CACHE = `${CACHE_VERSION}-assets`;
+const BASE = "/revrule-console";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(SHELL_CACHE).then((cache) => cache.addAll(["/", "/index.html"])),
+    caches
+      .open(SHELL_CACHE)
+      .then((cache) => cache.addAll([`${BASE}/`, `${BASE}/index.html`])),
   );
   self.skipWaiting();
 });
@@ -56,7 +59,7 @@ self.addEventListener("fetch", (event) => {
   if (request.mode === "navigate") {
     event.respondWith(
       fetch(request).catch(() =>
-        caches.match("/index.html", { cacheName: SHELL_CACHE }),
+        caches.match(`${BASE}/index.html`, { cacheName: SHELL_CACHE }),
       ),
     );
     return;
