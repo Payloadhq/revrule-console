@@ -1,5 +1,7 @@
 # RevRule Console by Payload
 
+**Try:** [live console](https://payloadhq.github.io/revrule-console/) (static PWA, no backend) · **Powered by:** [RevRule $99 one-time API](https://payloadtools.gumroad.com/l/revrule) · **Engine:** [Payloadhq/payload-flow](https://github.com/Payloadhq/payload-flow)
+
 **RevRule Console** is the human configuration and visualization layer for
 [RevRule](https://github.com/Payloadhq/payload-flow), Payload's programmable
 revenue rules engine. Manage Revenue Graphs, simulate economic events, and
