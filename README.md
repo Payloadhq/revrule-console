@@ -3,7 +3,7 @@
 **RevRule Console** is the human configuration and visualization layer for
 [RevRule](https://github.com/Payloadhq/payload-flow), Payload's programmable
 revenue rules engine. Manage Revenue Graphs, simulate economic events, and
-track entitlements on the RevRule rail, all from your browser.
+track entitlements with the RevRule API, all from your browser.
 
 ## What you can do
 
@@ -27,10 +27,10 @@ repo root from any static host and open it in a browser:
 npx serve .
 ```
 
-Connect it to the hosted Rail (`https://payload-rail.fly.dev`; get a free API
+Connect it to the hosted RevRule API (`https://payload-rail.fly.dev`; get a free API
 key with one curl call, see the
-[Rail quickstart](https://payloadhq.github.io/flow-rail.html)) or point it at
-your own self-hosted Rail. The console never moves money: it only reads and
+[RevRule API quickstart](https://payloadhq.github.io/flow-rail.html)) or point it at
+your own self-hosted RevRule API. The console never moves money: it only reads and
 proposes, like the engine itself.
 
 ## Repo contents
@@ -42,7 +42,7 @@ proposes, like the engine itself.
 ## Links
 
 - RevRule engine (MIT): https://github.com/Payloadhq/payload-flow
-- Rail quickstart: https://payloadhq.github.io/flow-rail.html
+- RevRule API quickstart: https://payloadhq.github.io/flow-rail.html
 - Browser sandbox (no key needed): https://payloadhq.github.io/flow-sandbox.html
 
 ## License
