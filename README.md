@@ -51,3 +51,9 @@ proposes, like the engine itself.
 
 No LICENSE file is present in this repo yet. Add one before distributing
 builds (the engine repo it configures is MIT).
+
+---
+
+**More from Payload** · [payloadhq.github.io](https://payloadhq.github.io/) · [all Payload repos](https://github.com/Payloadhq)
+
+Related: [payload-flow](https://github.com/Payloadhq/payload-flow) · [revrule-csv-import](https://github.com/Payloadhq/revrule-csv-import)
